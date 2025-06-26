@@ -1,4 +1,6 @@
-@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;600&family=Open+Sans:wght@400;300&display=swap');@import "tailwindcss";
+
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -94,7 +96,7 @@
 }
 
 /* 2. Tipografia */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;600&family=Open+Sans:wght@400;300&display=swap');
+
 
 body {
   font-family: 'Open Sans', Arial, sans-serif;

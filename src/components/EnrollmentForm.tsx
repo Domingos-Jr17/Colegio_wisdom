@@ -112,7 +112,7 @@ const EnrollmentForm: React.FC = () => {
                 </div>
                 <button
                     type="submit"
-                    className="w-full bg-blue-600 text-white font-bold py-2 rounded-md hover:bg-blue-700"
+                    className="w-full bg-yellow-400 text-white font-bold py-2 rounded-md hover:bg-blue-700"
                 >
                     Enviar Pré-Inscrição
                 </button>

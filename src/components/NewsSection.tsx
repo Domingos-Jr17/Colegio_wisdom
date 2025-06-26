@@ -36,7 +36,7 @@ const NewsSection: React.FC = () => {
               <h3 className="text-xl font-semibold mt-2">{news.title}</h3>
               <p className="text-gray-500">{news.date}</p>
               <p className="mt-2">{news.summary}</p>
-              <button className="mt-4 bg-blue-600 text-white py-2 px-4 rounded">Ler mais</button>
+              <button className="mt-4 bg-yellow-400 text-white py-2 px-4 rounded">Ler mais</button>
             </div>
           ))}
         </div>
