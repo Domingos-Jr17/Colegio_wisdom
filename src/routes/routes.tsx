@@ -7,6 +7,7 @@ import Calendar from '../pages/Calendar';
 import News from '../pages/News';
 import Enrollment from '../pages/Enrollment';
 import Contact from '../pages/Contact';
+import {ErrorPage} from '../pages/errorPage';
 
 const Routes: React.FC = () => {
     return (
@@ -19,6 +20,7 @@ const Routes: React.FC = () => {
                 <Route path="/news" element={<News />} />
                 <Route path="/enrollment" element={<Enrollment />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="*" element={<ErrorPage />} />
             </Switch>
         </Router>
     );
