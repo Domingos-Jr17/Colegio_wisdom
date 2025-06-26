@@ -7,7 +7,7 @@ import Calendar from '../pages/Calendar';
 import News from '../pages/News';
 import Enrollment from '../pages/Enrollment';
 import Contact from '../pages/Contact';
-import {ErrorPage} from '../pages/errorPage';
+import { ErrorPage } from '@/pages/ErrorPage';
 
 const Routes: React.FC = () => {
     return (
